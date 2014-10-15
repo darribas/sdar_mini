@@ -44,10 +44,11 @@ allows reuse, remix and redistribution.
 "{{site.data.course.name}}" is released as if it was a piece of open-source
 software. As such, it is available in an open repository at GitHub and all the
 powerful tools that come with it are available as well. If you find any bug or
-mistake you would like to fix, please open an issue; if you would like to
+mistake you would like to fix, please open an issue at the [ticket system](https://github.com/darribas/sdar_mini/issues); if you would like to
 contribute materials or modifications to the existing contents, please submit
-a pull request. If you are not familiar with standard open-source development
-practices, have a read here or send me an
+a [pull request](https://github.com/darribas/sdar_mini/pulls). If you are not familiar with standard open-source development
+practices, have a read
+[here](https://guides.github.com/activities/contributing-to-open-source/) or send me an
 [email](mailto:d.arribas-bel@bham.ac.uk).
 
 #### Citation
