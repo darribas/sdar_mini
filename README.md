@@ -51,14 +51,15 @@ practices, have a read here or send me an
 If you use of refer to materials in this course, please give it appropriate
 credit by citing it as:
 
+```
 @manual{, 
         author = "Arribas-Bel, Daniel",
         title = "{ Spatial Data, Analysis, and Regression - A mini course }",
         year = "2014",
         doi = "",
-        url = "{
-        http://darribas.org/sdar_mini}",
+        url = "{ http://darribas.org/sdar_mini }",
 }
+```
 
 ## License
 
