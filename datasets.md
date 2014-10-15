@@ -6,6 +6,8 @@ layout: default
 
 ## Datasets
 
+* [Download zip file](https://github.com/darribas/sdar_mini/archive/master.zip)
+
 This course uses the following datasets as examples. Most of them are data
 available from public sources, although it is possible to download them from
 the course repository for convenience.

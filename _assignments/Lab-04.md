@@ -4,7 +4,7 @@ title: Lab 4
 
 This lab covers an introductory tutorial for Python and, in particular, PySAL.
 All the content is contained in the IPython notebook `Lab-04.ipynb`, available
-from the repository.
+from the repository ([[raw]](https://raw.githubusercontent.com/darribas/sdar_mini/master/code/Lab-04.ipynb), [[html]](http://nbviewer.ipython.org/github/darribas/sdar_mini/blob/master/code/Lab-04.ipynb)) and included in the [`.zip` file](https://github.com/darribas/sdar_mini/archive/master.zip) with the data.
 
 ## Data analysis in Python and PySAL
 
