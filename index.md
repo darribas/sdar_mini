@@ -42,7 +42,7 @@ allows reuse, remix and redistribution.
 #### Bugs, improvements and contributions
 
 "{{site.data.course.name}}" is released as if it was a piece of open-source
-software. As such, it is available in an open repository at GitHub and all the
+software. As such, it is available in an [open repository](https://github.com/darribas/sdar_mini) at GitHub and all the
 powerful tools that come with it are available as well. If you find any bug or
 mistake you would like to fix, please open an issue at the [ticket system](https://github.com/darribas/sdar_mini/issues); if you would like to
 contribute materials or modifications to the existing contents, please submit
