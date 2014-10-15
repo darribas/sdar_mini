@@ -1,0 +1,34 @@
+# Jekyll configuration; see https://github.com/mojombo/jekyll/wiki/Configuration
+# Note: Jekyll configuration settings may not be respected by GitHub Pages.
+# Read the friendly manual: https://help.github.com/articles/using-jekyll-with-pages
+
+baseurl: "/sdar_mini"  # Replace with name of repo
+
+markdown: kramdown
+
+collections:
+  notes:
+    output: true
+  assignments:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""  # All files
+    values:
+      layout: default
+  -
+    scope:
+      path: ""  # All files
+      type: "notes"
+    values:
+      category: note
+      layout: note
+  -
+    scope:
+      path: ""  # All files
+      type: "assignments"
+    values:
+      category: assignment
+      layout: assignment

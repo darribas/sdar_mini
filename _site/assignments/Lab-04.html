@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dani Arribas-Bel">
+  <meta name="description" content="A mini-course">
+
+  <title>SDAR-mini &mdash; Lab 4</title>
+
+  <link href="/sdar_mini/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/sdar_mini/assets/css/course-site-custom.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="/sdar_mini/assets/js/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <!-- Static navbar -->
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/sdar_mini/index.html">SDAR-mini</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/sdar_mini/index.html">Home</a></li>
+          <li><a href="/sdar_mini/syllabus.html">Syllabus</a></li>
+          <li><a href="/sdar_mini/datasets.html">Datasets</a></li>
+          <li><a href="/sdar_mini/readings.html">Readings</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notes <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              
+              
+              <li><a href="/sdar_mini/notes/Class_01.html">Session I</a></li>
+              
+              <li><a href="/sdar_mini/notes/Class_02.html">Session II</a></li>
+              
+              <li><a href="/sdar_mini/notes/Class_03.html">Session III</a></li>
+              
+              <li><a href="/sdar_mini/notes/Class_04.html">Session IV</a></li>
+              
+              
+            </ul>
+          </li>
+          <li class="dropdown active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              
+              
+              <li><a href="/sdar_mini/assignments/Lab-01.html">Lab 1</a></li>
+              
+              <li><a href="/sdar_mini/assignments/Lab-02.html">Lab 2</a></li>
+              
+              <li><a href="/sdar_mini/assignments/Lab-03.html">Lab 3</a></li>
+              
+              <li><a href="/sdar_mini/assignments/Lab-04.html">Lab 4</a></li>
+              
+              
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container" id="body">
+    
+<h2>Lab 4</h2>
+
+
+<p>This lab covers an introductory tutorial for Python and, in particular, PySAL.
+All the content is contained in the IPython notebook <code>Lab-04.ipynb</code>, available
+from the repository.</p>
+
+<h2 id="data-analysis-in-python-and-pysal">Data analysis in Python and PySAL</h2>
+
+<ul>
+  <li>What is Python?</li>
+  <li>Why Python?
+    <ul>
+      <li>Flexible</li>
+      <li>Intuitive and high-level</li>
+      <li>Widely used and extended</li>
+    </ul>
+  </li>
+  <li>How Python?
+    <ul>
+      <li>Scripts + interpreter (IPython)</li>
+      <li>IPython notebook</li>
+    </ul>
+  </li>
+  <li>Basic Python in the notebook
+    <ul>
+      <li>Cells (code, markdown…)</li>
+      <li>Libraries</li>
+      <li>Help (inline, called)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="scientific-computing-in-python">Scientific computing in Python</h3>
+
+<ul>
+  <li><code>pandas</code>
+    <ul>
+      <li>IO operations</li>
+      <li>Data manipulation</li>
+    </ul>
+  </li>
+  <li><code>numpy</code> and <code>scipy</code>
+    <ul>
+      <li>Core data structures</li>
+      <li>Statistical functions and low-level methods</li>
+    </ul>
+  </li>
+  <li><code>matplotlib</code>
+    <ul>
+      <li>Visualization</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="pysal-intro">PySAL Intro</h3>
+
+<p>High-level library for advanced spatial analysis</p>
+
+<ul>
+  <li>Shapefile IO</li>
+  <li>Spatial weights
+    <ul>
+      <li>Create (contiguity and distance)</li>
+      <li>Query</li>
+      <li>Save</li>
+      <li>Combine –&gt; intersection of queen and block weights (<a href="http://nbviewer.ipython.org/gist/darribas/847138dced15727f9fcf">example</a>)</li>
+    </ul>
+  </li>
+  <li>Spatial lag</li>
+  <li>Choropleth mapping</li>
+  <li>ESDA
+    <ul>
+      <li>Global statistics</li>
+      <li>Local statistics</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="spreg"><code>spreg</code></h3>
+
+<p>Replication of all of the models run in Lab 3 with GeoDaSpace:</p>
+
+<ul>
+  <li>Non-spatial models:
+    <ul>
+      <li>OLS</li>
+      <li>OLS + White</li>
+      <li>OLS + spatial diagnostics</li>
+    </ul>
+  </li>
+  <li>Spatial heterogeneity:
+    <ul>
+      <li>OLS + spatial fixed effects</li>
+      <li>OLS + spatial regimes</li>
+    </ul>
+  </li>
+  <li>Spatial dependence:
+    <ul>
+      <li>OLS + WX</li>
+      <li>Spatial lag model (IV and ML)</li>
+      <li>Spatial error (GMM and ML)</li>
+      <li>Spatial HAC</li>
+    </ul>
+  </li>
+  <li>Batch example: spatial diagnostics with several weight matrices</li>
+</ul>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><strong>Anselin, L; Amaral, P. V.; Arribas-Bel, D.</strong> (2012) <a href="https://geodacenter.asu.edu/drupal_files/sperrorgmm_wp2.pdf">Technical Aspects of
+      Implementing GMM Estimation of the Spatial Error Model in PySAL and
+      GeoDaSpace</a>.
+      GeoDa Center Technical Report. [<a href="https://geodacenter.asu.edu/drupal_files/Code.zip">Source code</a>]</li>
+  <li><strong>McKinney, W.</strong> (2012) <a href="http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a>. O’Reilly Media.</li>
+  <li><strong>McKinney, W.</strong> (2013) <a href="http://vimeo.com/59324550">10-minute tour of pandas</a>. Vimeo.</li>
+  <li><strong>Pandas development team</strong> (2014) <a href="http://pandas.pydata.org">Pandas documentation</a>. Online resource.</li>
+</ul>
+
+
+
+  </div>
+
+  <div id="footer">
+    <div class="container text-muted small">
+      Content by <a href="http://darribas.org">Dani Arribas-Bel</a>.
+
+
+  Content licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a>.
+
+
+Created with <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+
+
+
+    </div>
+  </div>
+
+<!--jQuery & Twitter Bootstrap JavaScript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/sdar_mini/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
