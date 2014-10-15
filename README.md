@@ -34,6 +34,32 @@ skipping parts deemed inneccesary for their own needs. To that end, the course
 is released as an open-source software project and licensed using
 Creative-Commons, which allows reuse, remix and redistribution.
 
+
+## Bugs, improvements and contributions
+
+[“Spatial Data, Analysis, and Regression - A mini course”](http://darribas.org/sdar_mini) is released as if it was a piece of open-source
+software. As such, it is available in an open repository at GitHub and all the
+powerful tools that come with it are available as well. If you find any bug or
+mistake you would like to fix, please open an issue; if you would like to
+contribute materials or modifications to the existing contents, please submit
+a pull request. If you are not familiar with standard open-source development
+practices, have a read here or send me an
+[email](mailto:d.arribas-bel@bham.ac.uk).
+
+## Citation
+
+If you use of refer to materials in this course, please give it appropriate
+credit by citing it as:
+
+@manual{, 
+        author = "Arribas-Bel, Daniel",
+        title = "{ Spatial Data, Analysis, and Regression - A mini course }",
+        year = "2014",
+        doi = "",
+        url = "{
+        http://darribas.org/sdar_mini}",
+}
+
 ## License
 
 [“Spatial Data, Analysis, and Regression - A mini course”](http://darribas.org/sdar_mini) has been developed by
