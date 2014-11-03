@@ -50,7 +50,7 @@ $\;$
 
 Some of these violate classical assumptions in OLS
 
-# Model especification
+# Model specification
 ##
 
 ##
