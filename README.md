@@ -48,16 +48,21 @@ practices, have a read here or send me an
 
 ## Citation
 
-If you use of refer to materials in this course, please give it appropriate
+This resource has been published in the Open Access journal REGION. If you
+use of refer to materials in this course, please give it appropriate
 credit by citing it as:
 
 ```
-@manual{, 
-        author = "Arribas-Bel, Daniel",
-        title = "{ Spatial Data, Analysis, and Regression - A mini course }",
-        year = "2014",
-        doi = "",
-        url = "{ http://darribas.org/sdar_mini }",
+@article{arribas2014spatial,
+  title={Spatial data, analysis, and regression-a mini course},
+  author={Arribas-Bel, Dani},
+  journal={REGION},
+  volume={1},
+  number={1}.
+  pages={R1}
+  year={2014},
+  publisher={European Regional Science Association}
+  url = "{ http://darribas.org/sdar_mini}",
 }
 ```
 
