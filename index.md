@@ -19,7 +19,7 @@ introduces spatial weights, the spatial lag operator and provides an overview
 of the most basic tools of exploratory spatial data analysis (ESDA). Third and
 fourth lectures delve into spatial regression. After a motivation, time is
 spent on model specification, diagnostics and estimation, concluding with an
-overview of software implementations of spatial econometric techniques. 
+overview of software implementations of spatial econometric techniques.
 
 Computer labs provide practical lessons that solidify the concepts explained
 in the lectures and allow the student to learn some of the main tools
@@ -53,19 +53,23 @@ practices, have a read
 
 #### Citation
 
-If you use of refer to materials in this course, please give it appropriate
+This resource has been published in the Open Access journal REGION. If you
+use of refer to materials in this course, please give it appropriate
 credit by citing it as:
 
-    @manual{, 
-        author = "Arribas-Bel, Daniel",
-        title = "{ {{site.data.course.name}} }",
-        year = "2014",
-        doi = "",
-        url = "{ http://darribas.org/sdar_mini}",
+    @article{arribas2014spatial,
+      title={Spatial data, analysis, and regression-a mini course},
+      author={Arribas-Bel, Dani},
+      journal={REGION},
+      volume={1},
+      number={1}.
+      pages={R1}
+      year={2014},
+      publisher={European Regional Science Association}
+      url = "{ http://darribas.org/sdar_mini}",
     }
 
 #### License
 
 "{{site.data.course.name}}" has been developed by [{{site.data.instructor.name}}]({{site.data.instructor.url}}) and
 is released under [{{site.data.license.name}}]({{site.data.license.url}}).
-

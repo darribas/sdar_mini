@@ -2,6 +2,6 @@
 
 * [Dani Arribas-Bel](http://darribas.org)
 
-Self-contained course. Work in progress.
+Self-contained course. Visit online resource at:
 
-
+* [http://darribas.org/sdar_mini](http://darribas.org/sdar_mini)
