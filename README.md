@@ -48,7 +48,7 @@ practices, have a read here or send me an
 
 ## Citation
 
-This resource has been published in the Open Access journal REGION. If you
+This resource has been published in the Open Access journal REGION ([link](http://openjournals.wu.ac.at/ojs/index.php/region/article/view/42)). If you
 use of refer to materials in this course, please give it appropriate
 credit by citing it as:
 
